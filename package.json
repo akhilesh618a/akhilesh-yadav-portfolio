@@ -3,16 +3,21 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "description": "Personal portfolio & digital engineering identity of Akhilesh Yadav \u2014 AI/ML developer & B.Tech CSE (AI & ML) student.",
-  "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
-    "preview": "vite preview",
-    "lint": "eslint ."
-  },
+  "description": "Personal portfolio & digital engineering identity of Akhilesh Yadav — AI/ML developer & B.Tech CSE (AI & ML) student.",
+ "scripts": {
+  "dev": "vite",
+  "build": "tsc -b && vite build",
+  "preview": "vite preview",
+  "lint": "eslint .",
+  "server": "node server/index.js"
+},
   "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.4",
+    "express": "^5.2.1",
     "framer-motion": "^11.11.17",
     "lucide-react": "^0.454.0",
+    "nodemailer": "^10.0.11",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
